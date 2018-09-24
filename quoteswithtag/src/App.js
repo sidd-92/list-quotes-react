@@ -7,10 +7,23 @@ class App extends Component {
     return (
       <div>
         <h1>List of Quotes</h1>
-        <Quote />
-        <Quote />
-        <Quote />
-        <Quote />
+        <div className="collection">
+          <a href="#!" className="collection-item">
+            <span className="badge">1</span>
+            Alan
+          </a>
+          <a href="#!" className="collection-item">
+            <span className="new badge">4</span>
+            Alan
+          </a>
+          <a href="#!" className="collection-item">
+            Alan
+          </a>
+          <a href="#!" className="collection-item">
+            <span className="badge">14</span>
+            Alan
+          </a>
+        </div>
       </div>
     );
   }
