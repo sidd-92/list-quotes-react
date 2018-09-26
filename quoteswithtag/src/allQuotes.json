@@ -1,0 +1,460 @@
+[{
+    "Quote":
+      "If you accept the expectations of others, especially negative ones, then you never will change the outcome.",
+    "Author": "Michael Jordan",
+    "Tags": ["Change", "Negative", "Accept"],
+    "Popularity": 0,
+    "Category": "inspiration"
+  },
+  {
+    "Quote":
+      "You don't look out there for God, something in the sky, you look in you.",
+    "Author": "Alan Watts",
+    "Tags": ["God", "Sky"],
+    "Popularity": 0,
+    "Category": "inspiration"
+  },
+  {
+    "Quote":
+      "Most of us have far more courage than we ever dreamed we possessed.",
+    "Author": "Dale Carnegie",
+    "Tags": ["Courage", "Far", "Dreamed"],
+    "Popularity": 0,
+    "Category": "inspiration"
+  },
+  {
+    "Quote":
+      "The books that help you most are those which make you think that most. The hardest way of learning is that of easy reading; but a great book that comes from a great thinker is a ship of thought, deep freighted with truth and beauty.",
+    "Author": "Pablo Neruda",
+    "Tags": ["Learning", "Beauty", "Truth"],
+    "Popularity": 0,
+    "Category": "inspiration"
+  },
+  {
+    "Quote":
+      "In oneself lies the whole world and if you know how to look and learn, the door is there and the key is in your hand. Nobody on earth can give you either the key or the door to open, except yourself.",
+    "Author": "Jiddu Krishnamurti",
+    "Tags": ["Door", "Learn", "Earth"],
+    "Popularity": 0,
+    "Category": "inspiration"
+  },
+  {
+    "Quote":
+      "When a friend is in trouble, don't annoy him by asking if there is anything you can do. Think up something appropriate and do it.",
+    "Author": "E. W. Howe",
+    "Tags": ["Friend", "Trouble", "Annoy"],
+    "Popularity": 0,
+    "Category": "friendship"
+  },
+  {
+    "Quote":
+      "I never considered a difference of opinion in politics, in religion, in philosophy, as cause for withdrawing from a friend.",
+    "Author": "Thomas Jefferson",
+    "Tags": ["Politics", "Religion"],
+    "Popularity": 0,
+    "Category": "friendship"
+  },
+  {
+    "Quote":
+      "But friendship is precious, not only in the shade, but in the sunshine of life, and thanks to a benevolent arrangement the greater part of life is sunshine.",
+    "Author": "Thomas Jefferson",
+    "Tags": ["Life", "Sunshine", "Thanks"],
+    "Popularity": 0,
+    "Category": "friendship"
+  },
+  {
+    "Quote":
+      "If instead of a gem, or even a flower, we should cast the gift of a loving thought into the heart of a friend, that would be giving as the angels give.",
+    "Author": "George MacDonald",
+    "Tags": ["Flower", "Heart", "Giving"],
+    "Popularity": 0,
+    "Category": "friendship"
+  },
+  {
+    "Quote": "I want my friend to miss me as long as I miss him.",
+    "Author": "Saint Augustine",
+    "Tags": ["Friend", "Miss"],
+    "Popularity": 0,
+    "Category": "friendship"
+  },
+  {
+    "Quote":
+      "Friendship needs no words - it is solitude delivered from the anguish of loneliness.",
+    "Author": "Dag Hammarskjold",
+    "Tags": ["Loneliness", "Words", "Solitude"],
+    "Popularity": 0,
+    "Category": "friendship"
+  },
+  {
+    "Quote": "As iron sharpens iron, so a friend sharpens a friend.",
+    "Author": "King Solomon",
+    "Tags": ["Friend", "Iron", "Sharpens"],
+    "Popularity": 0,
+    "Category": "friendship"
+  },
+  {
+    "Quote":
+      "Begin at once to live, and count each separate day as a separate life.",
+    "Author": "Seneca",
+    "Tags": ["Count", "Begin", "Separate"],
+    "Popularity": 0,
+    "Category": "life"
+  },
+  {
+    "Quote":
+      "There are three constants in life... change, choice and principles.",
+    "Author": "Stephen Covey",
+    "Tags": ["Change", "Principles", "Choice"],
+    "Popularity": 0,
+    "Category": "life"
+  },
+  {
+    "Quote":
+      "All of life is peaks and valleys. Don't let the peaks get too high and the valleys too low.",
+    "Author": "John Wooden",
+    "Tags": ["High", "Valleys", "Peaks"],
+    "Popularity": 0,
+    "Category": "life"
+  },
+  {
+    "Quote":
+      "Look, I don't want to wax philosophic, but I will say that if you're alive you've got to flap your arms and legs, you've got to jump around a lot, for life is the very opposite of death, and therefore you must at very least think noisy and colorfully, or you're not alive.",
+    "Author": "Mel Brooks",
+    "Tags": ["Death", "Jump", "Alive"],
+    "Popularity": 0,
+    "Category": "life"
+  },
+  {
+    "Quote":
+      "Give me the luxuries of life and I will willingly do without the necessities.",
+    "Author": "Frank Lloyd Wright",
+    "Tags": ["Luxuries", "Willingly"],
+    "Popularity": 0,
+    "Category": "life"
+  },
+  {
+    "Quote":
+      "When we remember we are all mad, the mysteries disappear and life stands explained.",
+    "Author": "Mark Twain",
+    "Tags": ["Remember", "Mad", "Explained"],
+    "Popularity": 0,
+    "Category": "life"
+  },
+  {
+    "Quote":
+      "When we remember we are all mad, the mysteries disappear and life stands explained.",
+    "Author": "Mark Twain",
+    "Tags": ["Remember", "Mad", "Explained"],
+    "Popularity": 0,
+    "Category": "humor"
+  },
+  {
+    "Quote": "The art of living is more like wrestling than dancing.",
+    "Author": "Marcus Aurelius",
+    "Tags": ["Art", "Wrestling", "Living"],
+    "Popularity": 0,
+    "Category": "arts"
+  },
+  {
+    "Quote": "The art of living is more like wrestling than dancing.",
+    "Author": "Marcus Aurelius",
+    "Tags": ["Art", "Wrestling", "Living"],
+    "Popularity": 0,
+    "Category": "life"
+  },
+  {
+    "Quote":
+      "My mother-in-law said, 'One day I will dance on your grave.' I said 'I hope you do; I will be buried at sea.'",
+    "Author": "Les Dawson",
+    "Tags": ["Dance", "Sea", "Grave"],
+    "Popularity": 0,
+    "Category": "hope"
+  },
+  {
+    "Quote":
+      "I can only hope to be 10 percent of the mom mine was to me. She encouraged me to be confident and enjoy life. That's what I want for my son.",
+    "Author": "Charlize Theron",
+    "Tags": ["Mom", "Life", "Son"],
+    "Popularity": 0,
+    "Category": "hope"
+  },
+  {
+    "Quote":
+      "I'm not the type of guy who enjoys one-night stands. It leaves me feeling very empty and cynical. It's not even fun sexually. I need to feel something for the woman and entertain the vain hope that it may lead to a relationship.",
+    "Author": "Ben Affleck",
+    "Tags": ["Woman", "Fun", "Feeling"],
+    "Popularity": 0,
+    "Category": "hope"
+  },
+  {
+    "Quote":
+      "Bringing good news is imparting hope to one's fellow man. The idea of redemption is always good news, even if it means sacrifice or some difficult times.",
+    "Author": "Patti Smith",
+    "Tags": ["Good", "Sacrifice", "Difficult"],
+    "Popularity": 0,
+    "Category": "hope"
+  },
+  {
+    "Quote":
+      "Cynicism stems from disappointment. Cynical and faithless people were not always like that. They were filled with possibilities and hope as kids. But they tried and perhaps failed.",
+    "Author": "Robin S. Sharma",
+    "Tags": ["Cynical", "Tried", "Cynicism"],
+    "Popularity": 0,
+    "Category": "hope"
+  },
+  {
+    "Quote": "Survival was my only hope, success my only revenge.",
+    "Author": "Patricia Cornwell",
+    "Tags": ["Success", "Revenge", "Survival"],
+    "Popularity": 0,
+    "Category": "hope"
+  },
+  {
+    "Quote": "Survival was my only hope, success my only revenge.",
+    "Author": "Patricia Cornwell",
+    "Tags": ["Success", "Revenge", "Survival"],
+    "Popularity": 0,
+    "Category": "success"
+  },
+  {
+    "Quote":
+      "The gift that has been given to me says much about our capacity for great compassion and generosity, and I hope it sends an inspiring message to others about the importance of organ donation.",
+    "Author": "Steven Cojocaru",
+    "Tags": ["Great", "Compassion"],
+    "Popularity": 0,
+    "Category": "hope"
+  },
+  {
+    "Quote":
+      "Who would give a law to lovers? Love is unto itself a higher law.",
+    "Author": "Boethius",
+    "Tags": ["Law", "Lovers", "Higher"],
+    "Popularity": 0,
+    "Category": "love"
+  },
+  {
+    "Quote":
+      "Love can be unselfish, in the sense of being benevolent and generous, without being selfless.",
+    "Author": "Mortimer Adler",
+    "Tags": ["Selfless", "Unselfish"],
+    "Popularity": 0,
+    "Category": "love"
+  },
+  {
+    "Quote": "The quarrels of lovers are the renewal of love.",
+    "Author": "Jean Racine",
+    "Tags": ["Lovers", "Renewal", "Quarrels"],
+    "Popularity": 0,
+    "Category": "love"
+  },
+  {
+    "Quote":
+      "Love you will find only where you may show yourself weak without provoking strength.",
+    "Author": "Theodor Adorno",
+    "Tags": ["Strength", "Weak", "Provoking"],
+    "Popularity": 0,
+    "Category": "love"
+  },
+  {
+    "Quote":
+      "The highest function of love is that it makes the loved one a unique and irreplacable being.",
+    "Author": "Tom Robbins",
+    "Tags": ["Unique", "Loved", "Function"],
+    "Popularity": 0,
+    "Category": "love"
+  },
+  {
+    "Quote": "Love is a friendship set to music.",
+    "Author": "Joseph Campbell",
+    "Tags": ["Friendship", "Music"],
+    "Popularity": 0,
+    "Category": "friendship"
+  },
+  {
+    "Quote": "Love is a friendship set to music.",
+    "Author": "Joseph Campbell",
+    "Tags": ["Friendship", "Music"],
+    "Popularity": 0,
+    "Category": "love"
+  },
+  {
+    "Quote":
+      "A very small degree of hope is sufficient to cause the birth of love.",
+    "Author": "Stendhal",
+    "Tags": ["Hope", "Small", "Birth"],
+    "Popularity": 0,
+    "Category": "hope"
+  },
+  {
+    "Quote":
+      "A very small degree of hope is sufficient to cause the birth of love.",
+    "Author": "Stendhal",
+    "Tags": ["Hope", "Small", "Birth"],
+    "Popularity": 0,
+    "Category": "love"
+  },
+  {
+    "Quote":
+      "In art and dream may you proceed with abandon. In life may you proceed with balance and stealth.",
+    "Author": "Patti Smith",
+    "Tags": ["Life", "Balance", "Dream"],
+    "Popularity": 0,
+    "Category": "arts"
+  },
+  {
+    "Quote":
+      "I regard the theatre as the greatest of all art forms, the most immediate way in which a human being can share with another the sense of what it is to be a human being.",
+    "Author": "Thornton Wilder",
+    "Tags": ["Theatre", "Greatest", "Share"],
+    "Popularity": 0,
+    "Category": "arts"
+  },
+  {
+    "Quote":
+      "So long as the system of competition in the production and exchange of the means of life goes on, the degradation of the arts will go on; and if that system is to last for ever, then art is doomed, and will surely die; that is to say, civilization will die.",
+    "Author": "William Morris",
+    "Tags": ["Life", "Arts", "Die"],
+    "Popularity": 0,
+    "Category": "arts"
+  },
+  {
+    "Quote":
+      "I started to make a study of the art of war and revolution and, whilst abroad, underwent a course in military training. If there was to be guerrilla warfare, I wanted to be able to stand and fight with my people and to share the hazards of war with them.",
+    "Author": "Nelson Mandela",
+    "Tags": ["War", "Training", "Fight"],
+    "Popularity": 0,
+    "Category": "arts"
+  },
+  {
+    "Quote":
+      "There is nothing, Sir, too little for so little a creature as man. It is by studying little things that we attain the great art of having as little misery and as much happiness as possible.",
+    "Author": "Samuel Johnson",
+    "Tags": ["Happiness", "Great", "Studying"],
+    "Popularity": 0,
+    "Category": "arts"
+  },
+  {
+    "Quote":
+      "No skill shapes a child's future success in school or in life more than the ability to read.",
+    "Author": "Bob Riley",
+    "Tags": ["Life", "Future", "Child"],
+    "Popularity": 0,
+    "Category": "success"
+  },
+  {
+    "Quote":
+      "My private measure of success is daily. If this were to be the last day of my life would I be content with it? To live in a harmonious balance of commitments and pleasures is what I strive for.",
+    "Author": "Jane Rule",
+    "Tags": ["Life", "Daily", "Balance"],
+    "Popularity": 0,
+    "Category": "success"
+  },
+  {
+    "Quote":
+      "First-person narrators is the way I know how to write a book with the greatest power and chance of artistic success.",
+    "Author": "Anne Rice",
+    "Tags": ["Power", "Chance", "Book"],
+    "Popularity": 0,
+    "Category": "success"
+  },
+  {
+    "Quote":
+      "I haven't deliberately set out to play the blonde bombshell in my movies. In fact, it's probably been quite the opposite. After the success of The Mask, I wasn't offered all that many blonde bombshell parts, to be honest. I think people believed from the beginning that I could actually walk and talk at the same time.",
+    "Author": "Cameron Diaz",
+    "Tags": ["Time", "Movies", "Beginning"],
+    "Popularity": 0,
+    "Category": "success"
+  },
+  {
+    "Quote":
+      "I think that the entertainment industry itself has a history of chasing success. Any time a hit product comes out, all the other companies start chasing after that success and trying to recreate it by putting out similar products.",
+    "Author": "Shigeru Miyamoto",
+    "Tags": ["Time", "History", "Start"],
+    "Popularity": 0,
+    "Category": "success"
+  },
+  {
+    "Quote":
+      "The success of a hat definitely lies with balancing the personality of the wearer with the type of occasion. Don't listen to those rules about face shape.",
+    "Author": "Philip Treacy",
+    "Tags": ["Rules", "Face", "Listen"],
+    "Popularity": 0,
+    "Category": "success"
+  },
+  {
+    "Quote":
+      "I think I've always been somebody, since the deaths of my father and brother, who was afraid to hope. So, I was more prepared for failure and for rejection than for success.",
+    "Author": "Amy Tan",
+    "Tags": ["Hope", "Failure", "Father"],
+    "Popularity": 0,
+    "Category": "hope"
+  },
+  {
+    "Quote":
+      "I think I've always been somebody, since the deaths of my father and brother, who was afraid to hope. So, I was more prepared for failure and for rejection than for success.",
+    "Author": "Amy Tan",
+    "Tags": ["Hope", "Failure", "Father"],
+    "Popularity": 0,
+    "Category": "success"
+  },
+  {
+    "Quote":
+      "I think the main thing about comedy and humor is that it's impossible and always was impossible to define.",
+    "Author": "Mike Nichols",
+    "Tags": ["Comedy", "Impossible", "Define"],
+    "Popularity": 0,
+    "Category": "humor"
+  },
+  {
+    "Quote":
+      "Never say a humorous thing to a man who does not possess humor. He will always use it in evidence against you.",
+    "Author": "Herbert Beerbohm Tree",
+    "Tags": ["Against", "Evidence", "Humorous"],
+    "Popularity": 0,
+    "Category": "humor"
+  },
+  {
+    "Quote":
+      "Humor can bring people under the tent. And a good joke can deflect some of the intensity surrounding a serious subject.",
+    "Author": "Ted Danson",
+    "Tags": ["Good", "Bring", "Serious"],
+    "Popularity": 0,
+    "Category": "humor"
+  },
+  {
+    "Quote":
+      "In Buddhism, they say attachment to anything only leads to suffering. So when we laugh, it's our way of saying, 'I'm unattached to that.' You're tickled by it, it makes your lobes do something on their own. So humor is very important to me. I always take that to the stage first.",
+    "Author": "Jason Mraz",
+    "Tags": ["Suffering", "Laugh", "Stage"],
+    "Popularity": 0,
+    "Category": "humor"
+  },
+  {
+    "Quote": "I love British humor. It's just so - surreal.",
+    "Author": "Beck",
+    "Tags": ["Love", "British", "Surreal"],
+    "Popularity": 0,
+    "Category": "humor"
+  },
+  {
+    "Quote": "I've got a sense of humor. I'm a funny guy.",
+    "Author": "Daryl Hall",
+    "Tags": ["Funny", "Guy"],
+    "Popularity": 0,
+    "Category": "humor"
+  },
+  {
+    "Quote":
+      "Humor is such a wonderful thing, helping you realize what a fool you are but how beautiful that is at the same time.",
+    "Author": "Lynda Barry",
+    "Tags": ["Time", "Beautiful", "Fool"],
+    "Popularity": 0,
+    "Category": "humor"
+  },
+  {
+    "Quote": "Life Is Full of Obstacles, Stumble Upon !!",
+    "Author": "Pratik Shelar",
+    "Tags": ["inspirational-quotes "],
+    "Popularity": -0.000001000001000001,
+    "Category": "inspiration"
+  }]
