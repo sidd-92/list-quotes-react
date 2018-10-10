@@ -1,3 +1,7 @@
 .Quote {
   font-family: "Lato", sans-serif;
+  background-color: blueviolet;
+  padding: 20px;
+  color: white;
+  margin: 5px;
 }
