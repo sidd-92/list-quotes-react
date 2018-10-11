@@ -1649,3 +1649,29 @@ export function getAllQuotes() {
 
   return allQ;
 }
+
+export function getAllQuotesWithAuthor() {
+  let QwithAuthor = [];
+  let completed = {};
+  allQuotes.map(q => {
+    if (q.Quote in completed === false) {
+      completed[q.Quote] = q.Author;
+    }
+  });
+  QwithAuthor.push(completed);
+
+  return QwithAuthor;
+}
+
+export function getTagsForQuote() {
+  let QwithTag = [];
+  let completed = {};
+  allQuotes.map(q => {
+    if (q.Quote in completed === false) {
+      completed[q.Quote] = q.Tags;
+    }
+  });
+  QwithTag.push(completed);
+
+  return QwithTag;
+}
