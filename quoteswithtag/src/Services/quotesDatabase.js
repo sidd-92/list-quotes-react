@@ -1626,68 +1626,150 @@ const allQuotes = [
 	}
 ];
 
-export function getAllQuotes() {
-	let allQ = [];
-	let completed = {};
-	// eslint-disable-next-line
-	allQuotes.map(q => {
-		if (q.Quote in completed === false) {
-			completed[q.Quote] = q.Quote;
-			allQ.push(q.Quote);
+/* 
+TODO Get Each Quote with : Tags
+1. Build a Object of Tags associate it with Quote
+2. Build a Object of Quotes-Tags with Authors 
+3. Make a Seperate Class for Tags
+*/
+
+function getQuotesWithAuthorTags() {
+	var QuoteAuthorTag = {};
+	//ForEach Quote assign with Tags
+	allQuotes.map((quote) => {
+		if (quote.Author in QuoteAuthorTag == false) {
+			QuoteAuthorTag[quote.Author] = { q: quote.Quote, t: quote.Tags };
 		}
 	});
-
-	return allQ;
+	return Object.values(QuoteAuthorTag);
 }
 
-export function getAllQuotesWithAuthor() {
-	let QwithAuthor = [];
-	let completed = {};
-	// eslint-disable-next-line
-	allQuotes.map(q => {
-		if (q.Quote in completed === false) {
-			completed[q.Quote] = q.Author;
+function getInformationByQuote(quote) {
+	var information = {};
+	//ForEach Quote assign with Tags
+	allQuotes.map((q) => {
+		if (q.Quote in information == false) {
+			if (quote == q.Quote) {
+				information[q.Quote] = {
+					a: q.Author,
+					t: q.Tags,
+					p: q.Popularity,
+					c: q.Category
+				};
+			}
 		}
 	});
-	QwithAuthor.push(completed);
-
-	return QwithAuthor;
+	return information;
 }
 
-export function getTagsForQuote() {
-	let QwithTag = [];
-	let completed = {};
-	allQuotes.map(q => {
-		if (q.Quote in completed === false) {
-			completed[q.Quote] = q.Tags;
+function getAllQuotes() {
+	let unique = {};
+	allQuotes.map((qu) => {
+		if (qu.Quote in unique == false) {
+			unique[qu.Quote] = qu.Quote;
 		}
 	});
-	QwithTag.push(completed);
-
-	return QwithTag;
-}
-/**
- * @name GetQuotesByTag
- * @description Given a tag Get all quotes assigned that tag
- * @param {*} nameOfTag
- */
-export function getAllQuotesByTag(nameOfTag) {
-	/* let taggedQuote = allQuotes.map(quote=>{
-			
-	}) */
+	return Object.values(unique);
 }
 
-/**
- * @name GetAllTags
- */
-export function getAllTags() {
-	let completed = {};
-	allQuotes.map(quotes => {
-		quotes.Tags.map(tag => {
-			if (tag in completed === false) {
-				completed[tag] = tag;
+function getAllAuthors() {
+	let authors = {};
+	allQuotes.map((q) => {
+		if (q.Author in authors == false) {
+			authors[q.Author] = q.Author;
+		}
+	});
+	return Object.values(authors);
+}
+
+function getQuoteByAuthor(authorname) {
+	const authorMap = mapAuthorwithQuotes();
+	if (authorMap.has(authorname)) {
+		return authorMap.get(authorname);
+	}
+}
+/*
+getAllAuthors().map((q) => {
+	console.log(q, "says", getQuoteByAuthor(q));
+});
+*/
+
+function getCategories() {
+	let unique = {};
+	allQuotes.map((quote) => {
+		if (quote.Category in unique == false)
+			unique[quote.Category] = quote.Category;
+	});
+	return unique;
+}
+
+function getQuoteAuthorOnCategory(category = "") {
+	let quotesWithAuthor = {};
+	let allCategories = getCategories();
+
+	if (category in allCategories) {
+		allQuotes.map((quote) => {
+			if (category == quote.Category) {
+				quotesWithAuthor[quote.Author] = quote.Quote;
 			}
 		});
-	});
-	console.log("getAllTags", completed);
+	} else {
+		return "There is No Category";
+	}
+
+	return [quotesWithAuthor];
 }
+
+function getQuoteByPopularity() {
+	let popularityToQuote = new Map();
+	allQuotes.map((q) => {
+		if (popularityToQuote.has(q.Quote) == false) {
+			popularityToQuote.set(q.Quote, q.Popularity);
+		}
+	});
+	return popularityToQuote;
+}
+
+function getAllPopularityScores() {
+	let unique = {};
+	let popularity = [];
+	allQuotes.map((q) => {
+		if (q.Quote in unique == false) {
+			unique[q.Quote] = q.Quote;
+			if (q.Popularity != undefined) {
+				popularity.push(q.Popularity);
+			}
+		}
+	});
+	return popularity;
+}
+
+//!HELPER FUNCTIONS
+function mapAuthorwithQuotes() {
+	var authorMap = new Map();
+	let unique = {};
+	//ForEach Quote assign with Author
+	allQuotes.map((quote) => {
+		if (quote.Quote in unique == false) {
+			authorMap.set(quote.Author, quote.Quote);
+			unique[quote.Quote] = quote.Quote;
+		}
+	});
+	return authorMap;
+}
+function mapQuotesWithTags() {
+	var myMap = new Map();
+	let unique = {};
+	//ForEach Quote assign with Tags
+	allQuotes.map((quote) => {
+		if (quote.Quote in unique == false) {
+			myMap.set(quote.Quote, quote.Tags);
+			unique[quote.Quote] = quote.Quote;
+		}
+	});
+	return myMap;
+}
+
+//getQuoteByAuthor("Neil Gaiman,  Coraline");
+
+export { getInformationByQuote, getAllQuotes };
